@@ -1,35 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
 
 		<title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/reveal.css" />
+		<link rel="stylesheet" href="css/theme/white.css" />
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+		<link rel="stylesheet" href="lib/css/monokai.css" />
 
 		<style>
-			.attribution{
-/*			    position:absolute;
+			.attribution {
+				/*			    position:absolute;
 			    bottom:0;
 			    right:0;*/
-			    font-size:0.4em;
-			    display: block;
+				font-size: 0.4em;
+				display: block;
 			}
 		</style>
 
 		<!-- Printing and PDF exports -->
 		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
+			var link = document.createElement("link");
+			link.rel = "stylesheet";
+			link.type = "text/css";
+			link.href = window.location.search.match(/print-pdf/gi)
+				? "css/print/pdf.css"
+				: "css/print/paper.css";
+			document.getElementsByTagName("head")[0].appendChild(link);
 		</script>
 	</head>
 	<body>
@@ -37,16 +42,40 @@
 			<div class="slides">
 				<section>
 					<h3>
-						You can weave software into hardware! <br> 
+						You can weave software into hardware! <br />
 						And then fly to the moon!!
 					</h3>
-					<img style="max-height:400px;" data-src="/static/core-rope-memory-close-up.jpg">
-					<span class="attribution"><a href="https://authors.library.caltech.edu/5456/1/hrst.mit.edu/hrs/apollo/public/visual3.htm">Photograph © Raytheon, from the files of Jack Poundstone</a></span>
+					<img
+						style="max-height:400px;"
+						id="core-rope-memory-in-progress"
+					/>
 				</section>
-				<section>Slide 2</section>
+				<section>
+					<section>
+						<h3>
+							What is core (rope) memory?
+						<h3>
+					</section>
+					<section>
+						<h3>Software and Apollo</h3>
+					</section>
+					<section>
+						<div style="display:flex; max-height: 400px;">
+							<div>
+								<h5>Core Memory (RAM)</h5>
+								<img id="core-memory-close-up.jpg"/>
+							</div>
+							<div>
+								<h6>Core Rope Memory (ROM)</h6>
+								<img id="core-rope-memory-close-up"/>
+							</div>
+						</div>
+					</section>
+				</section>
 			</div>
 		</div>
 
+		<script src="static/attribution.js"></script>
 		<script src="js/reveal.js"></script>
 
 		<script>
@@ -56,10 +85,10 @@
 			Reveal.initialize({
 				hash: true,
 				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: "plugin/markdown/marked.js" },
+					{ src: "plugin/markdown/markdown.js" },
+					{ src: "plugin/highlight/highlight.js" },
+					{ src: "plugin/notes/notes.js", async: true }
 				]
 			});
 		</script>
