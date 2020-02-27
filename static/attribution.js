@@ -80,6 +80,11 @@ const IMAGES = {
         attributionText: 'Raytheon Apollo Press Kit, David Meerman Scott',
         location: '/static/solo-weaver-b-w.png'
     },
+    'waltham-watch-company': {
+        attributionLink: 'https://en.wikipedia.org/wiki/Waltham_Watch_Company',
+        attributionText: 'Image courtesy: Wikipedia',
+        location: '/static/waltham-watch-company.jpg'
+    },
     'weaving-core-rope-memory': {
         attributionLink: 'https://wehackthemoon.com/tech/core-rope-memory-when-computer-science-meets-girl-power',
         attributionText: 'Image courtsey: Draper',
